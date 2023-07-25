@@ -1,19 +1,60 @@
+
+@font-face {
+    font-family: 'LCD'; /* Nombre de la fuente */
+    src: url('LCDAT&TPhoneTimeDate.ttf') format('truetype'); /* Ruta y formato del archivo de la fuente */
+  }
+  
+
+main{
+    display: flex;
+    justify-content: center;
+}
 .calculadora{
-    background-color:blueviolet
+    display: flex;
+    flex-direction: column;
+    background-color: #F84295;
+    width: 70%;
+    padding: 10px;
 }
 
 .pantalla{
-    background-color: salmon;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(202, 41, 121, 0.4);
+    padding: 2px;
+    width: 95%;
+    
 }
 
+.input {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(174, 19, 97, 0.4);
+    font-family: 'LCD', sans-serif; /* Utiliza la fuente 'LCD' para los inputs */
+    font-size: 18px; /* Tamaño de fuente para los inputs */
+    border: none; /* Quita el borde de los inputs */
+    padding: 5px; /* Ajusta el espaciado dentro de los inputs */
+  }
+
 .marca{
-    background-color: chartreuse;
+    display: flex;
+    background-color: #F84295;
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    font-size: 7px;
+    padding: 2px;
+    color: #FAE3FC;
+
 }
 
 .botonesCalculadora{
     background-color: crimson;
+    padding: 5px;
+    width: 95%;
 }
 
 .botonCe{
     background-color: darkorange;
+    padding: 5px;
+    width: 95%;
 }
