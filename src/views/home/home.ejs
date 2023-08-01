@@ -4,14 +4,24 @@
   <body>
     <%- include('../partials/header') %>
     <main>
+      <div class="calImg">
       <div class="calculadora">
         <div class="pantalla">
           <input class="input" type="text">
         </div>
         <div class="marca">
-          <h2>CATIGA</h2>
-          <h3>®</h3>
+            <div>
+              <h2>CATIGA</h2>
+              <h3>®</h3>
+            </div> <!-- pruebas -->
+            <P class ='p1'>CD-8185</P>
+            <P class="p3">8</P>
+          <div>
+              <p class="p4">DIGITS</p>
+              <p class="p2">SIMPLE DESIGN CALCULATOR</p>
+          </div>
         </div>
+          
         <div class="botonesCalculadora">
           <button class="boton7" value="7">7</button>
           <button class="boton8" value="8">8</button>
@@ -34,6 +44,8 @@
             <button class="botonReset" value="">Reset</button>
         </div>
       </div>
+        <img src="../../images/calculadora.png" width="30%">
+    </div>
     </main>
     <%- include('../partials/footer') %>
     <script src="/js/calculadoraFront.js"></script>

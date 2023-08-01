@@ -5,15 +5,16 @@
   }
   
 
-main{
+.calImg{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+   
 }
 .calculadora{
     display: flex;
     flex-direction: column;
     background-color: #F84295;
-    width: 70%;
+    width: 40%;
     padding: 10px;
 }
 
@@ -36,14 +37,15 @@ main{
 
 .marca{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: #F84295;
     width: 95%;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Serif', serif;
+    font-family: 'Avenir Next LT Pro', sans-serif;
     font-size: 7px;
     padding: 2px;
     color: #FAE3FC;
+
 
 }
 
