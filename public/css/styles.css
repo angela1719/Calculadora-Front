@@ -3,6 +3,16 @@
     font-family: 'LCD'; /* Nombre de la fuente */
     src: url('LCDAT&TPhoneTimeDate.ttf') format('truetype'); /* Ruta y formato del archivo de la fuente */
   }
+
+@font-face {
+    font-family: "Aviano Future W01 Heavy";
+    src: url("https://db.onlinewebfonts.com/t/625cf3db9287945bd8e22b4556845531.eot");
+    src: url("https://db.onlinewebfonts.com/t/625cf3db9287945bd8e22b4556845531.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/625cf3db9287945bd8e22b4556845531.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/625cf3db9287945bd8e22b4556845531.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/625cf3db9287945bd8e22b4556845531.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/625cf3db9287945bd8e22b4556845531.svg#Aviano Future W01 Heavy")format("svg");
+}
   
 
 .calImg{
@@ -14,49 +24,161 @@
     display: flex;
     flex-direction: column;
     background-color: #F84295;
-    width: 40%;
+    width: 32%;
     padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
 }
 
 .pantalla{
     text-align: center;
-    box-shadow: 0 4px 8px rgba(202, 41, 121, 0.4);
     padding: 2px;
     width: 95%;
+    border: 2px solid #c72e7e;
+    border-radius: 8px;
+    margin: 5px;
     
 }
 
 .input {
-    width: 100%;
+    text-align: end;
+    width: 95%;
     box-shadow: 0 4px 8px rgba(174, 19, 97, 0.4);
-    font-family: 'LCD', sans-serif; /* Utiliza la fuente 'LCD' para los inputs */
-    font-size: 18px; /* Tamaño de fuente para los inputs */
-    border: none; /* Quita el borde de los inputs */
-    padding: 5px; /* Ajusta el espaciado dentro de los inputs */
+    font-family: 'LCD', sans-serif;
+    font-size: 51px;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    color: #414670;
+    height: 34px;
   }
 
-.marca{
+  .marca {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     background-color: #F84295;
     width: 95%;
-    font-family: 'Avenir Next LT Pro', sans-serif;
     font-size: 7px;
     padding: 2px;
     color: #FAE3FC;
+}
+
+.catiga{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+h2{
+    font-family: "Aviano Future W01 Heavy";
+}
+
+h3{
+    font-family: Arial;
+    font-size: 7px;
+
+}
+
+.p1{
+    align-content: flex-end;
+    margin-left: 14px;
+
+}
+.p2{
+    margin-top: -5px;
+}
+
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+
+.p3 .digito{
+    margin-top: -13px;
+    margin-right: 5px;
+}
 
 
+.parrafo8{
+    font-size: 1.5em;
+    font-style: italic;
+
+}
+.celda{
+    width: 63px;
+    height: 17px;
+    background-color: #786261;
+    border-radius: 2.5px;
 }
 
 .botonesCalculadora{
-    background-color: crimson;
+    background-color: #F84295;
     padding: 5px;
     width: 95%;
+    border-radius: 40px;
 }
 
-.botonCe{
-    background-color: darkorange;
-    padding: 5px;
-    width: 95%;
+.botonRedondo{
+    border-radius: 100%;
+    background-color: #FDF8FE;
+    color: #FCC4E4;
+    font-weight: bolder;
+    font-size: 17px;
+    min-width: 20px;
+    text-align: center;
+    
+}
+.botonRedondoAzul{
+    border-radius: 50px;
+    background-color: #BFDAF7;
+    color: #FDF8FE;
+    font-size: 13px;
+    text-align: center;
+}
+.botonRedondoRosado{
+    border-radius: 26%;
+    background-color: #FCC4E4;
+    color: #FDF8FE;
+    font-weight: bolder;
+    font-size: 17px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.botonIgual{
+    border-radius: 30px;
+    background-color: #FDF8FE;
+    color: #FCC4E4;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 70px;
+    text-align: center;
+}
+
+.botonSuma{
+    border-radius: 100%;
+    background-color: #FDF8FE;
+    color: #FCC4E4;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+
+.botonReset{
+    border-radius: 30px;
+    background-color: #BFDAF7;
+    color: #FDF8FE;
+    font-size: 15px;
+    min-width: 20px;
+    text-align: center;
+    font-weight: bolder;
 }
