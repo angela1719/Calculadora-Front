@@ -1,8 +1,4 @@
 
-@font-face {
-    font-family: 'LCD'; /* Nombre de la fuente */
-    src: url('LCDAT&TPhoneTimeDate.ttf') format('truetype'); /* Ruta y formato del archivo de la fuente */
-  }
 
 @font-face {
     font-family: "Aviano Future W01 Heavy";
@@ -27,10 +23,10 @@
   }
 
   @font-face {
-    font-family: 'Barclays Premier League'; /* Nombre que le asignaremos a la fuente */
-    src: url('fonts/PremierLeague.ttf') format('truetype'); /* Ajusta la ruta según donde colocaste el archivo de la fuente */
-    /* También puedes agregar otros formatos como woff y woff2 para mayor compatibilidad */
+    font-family: 'Barclays Premier League';
+    src: url('fonts/PremierLeague.ttf') format('truetype'); 
   }
+  
   
   
 .calImg{
@@ -42,7 +38,7 @@
     display: flex;
     flex-direction: column;
     background-color: #F84295;
-    width: 32%;
+    width: 239px;
     padding: 10px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -65,8 +61,9 @@
     text-align: end;
     width: 95%;
     box-shadow: 0 4px 8px rgba(174, 19, 97, 0.4);
-    font-family: 'LCD', sans-serif;
-    font-size: 51px;
+    font-family: "DigitalICG";
+    font-size: 45px;
+    font-weight: lighter;
     border: none;
     padding: 5px;
     border-radius: 4px;
@@ -153,10 +150,11 @@ h3{
     box-sizing: border-box;
     gap: 4px;
     flex-direction: column;
+    text-align: center;
     
 }
 
-.botonRedondo{
+#botonRedondo{
     border-radius: 100%;
     background-color: #FDF8FE;
     color: #FCC4E4;
@@ -167,7 +165,7 @@ h3{
     box-sizing: border-box;  
     
 }
-.botonRedondoAzul{
+#botonRedondoAzul{
     border-radius: 50px;
     background-color: #BFDAF7;
     color: #FDF8FE;
@@ -178,16 +176,17 @@ h3{
     box-sizing: border-box; 
     font-weight: bold; 
 }
-.botonRedondoRosado{
+#botonRedondoRosado{
     border-radius: 26%;
     background-color: #FCC4E4;
     color: #FDF8FE;
-    font-size: 15px;
-    min-height: 40px; 
-    min-width: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    min-height: 37px;
+    min-width: 42px;
     text-align: center;
-    box-sizing: border-box;  
-    font-family: 'Barclays Premier League', sans-serif; 
+    box-sizing: border-box;
+    font-family: 'Barclays Premier League', sans-serif;
 }
 
 .botonIgual{
@@ -195,17 +194,17 @@ h3{
     background-color: #FDF8FE;
     color: #FCC4E4;
     font-weight: bolder;
-    font-size: 17px;
-    width: 89px;
+    font-size: 21px;
+    width: 124px;
     box-sizing: border-box;
     align-items: baseline;
     align-content: flex-end;
     justify-content: center;
     margin: 4px;
-    margin-left: 58px;
+    margin-left: 15px;
 }
 
-.botonSuma{
+#botonSuma{
     border-radius: 100%;
     background-color: #FDF8FE;
     color: #FCC4E4;
@@ -216,7 +215,7 @@ h3{
     box-sizing: border-box;  
 }
 
-.botonReset{
+#botonReset{
     border-radius: 30px;
     background-color: #BFDAF7;
     color: #FDF8FE;

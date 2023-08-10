@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
 
 let realizarOperacion = () =>{
   const input = document.querySelector('.input');
-  const numeroActual = parseFloat(input.value);
+  const numeroActual = parseFloat(botonClick);
 
   if(operacion === '+'){
     resultado += numeroActual
@@ -54,6 +54,7 @@ agregarEventoBoton('.boton7', '7')
 agregarEventoBoton('.boton8', '8')
 agregarEventoBoton('.boton9', '9')
 agregarEventoBoton('.botonPunto', '.');
+
  
 //5. capturar botonReset,adicionar evento, resetear variables y funciones correspondientes
 document.querySelector('.botonReset').addEventListener('click', () => {
